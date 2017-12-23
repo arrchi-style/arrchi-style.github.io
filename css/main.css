@@ -1,0 +1,79 @@
+.header {
+    background: #1485d4; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #1485d4 0%, #0f57a1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #1485d4 0%,#0f57a1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #1485d4 0%,#0f57a1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1485d4', endColorstr='#0f57a1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 100vh;
+}
+.snowfall{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../img/snowfall.png);
+    opacity: 0.25;
+}
+.snow1{
+    background: url(../img/snow1.png) repeat center top;
+    height: 114px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.snow2{
+    background: url(../img/snow2.png) repeat center top;
+    height: 114px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.santa{
+    background: url(../img/santa.png) repeat center top;
+    height: 428px;
+    position: absolute;
+    width: 597px;
+    left: 50%;
+    margin-left: -300px;
+    bottom: 50px;
+}
+.logo{
+    width: 171px;
+    height: 116px;
+    background: url(../img/logo.png) no-repeat center top;
+    padding-top: 95px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -85px;
+    top: 3%;
+    color: #ffffff;
+    letter-spacing: 0.12em;    
+}
+.text{
+    background: url(../img/text.png);
+    width: 935px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -465px;
+    top: 45%;
+    margin-top: -150px;
+}
+
+.ball{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.ball__img{
+    max-width: 100%;
+    height: 60%;
+}
+
+/* MEDIA */
+
